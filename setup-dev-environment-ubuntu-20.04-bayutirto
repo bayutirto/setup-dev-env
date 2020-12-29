@@ -101,3 +101,11 @@ git status
 git commit -m "your init"
 git remote add origin "your github link".git
 git push -u origin master
+
+=== Install Postman ===
+
+=== Install Arduino ===
+
+=== Install Figma ===
+
+=== Install Gimp ===
