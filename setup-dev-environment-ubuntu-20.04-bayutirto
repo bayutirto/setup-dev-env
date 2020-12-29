@@ -1,0 +1,49 @@
+Setup Dev Environment Ubuntu 20.04 by Bayu Tirto
+
+=== Install Xampp ===
+cd Downloads
+chmod 755 xampp.run
+sudo ./xampp.run
+=== Source ===
+https://www.novri.web.id/2020/11/cara-install-xampp-di-ubuntu-20-04-lts.html
+
+=== Install Composer ===
+sudo apt update
+sudo apt install php-cli unzip
+cd ~
+curl -sS https://getcomposer.org/installer -o composer-setup.php
+HASH=`curl -sS https://composer.github.io/installer.sig`
+echo $HASH
+php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+composer
+=== Source ===
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04
+
+=== Install NodeJs ===
+sudo apt update
+sudo apt install nodejs npm
+=== Source ===
+https://linuxize.com/post/how-to-install-node-js-on-ubuntu-20-04/
+
+=== Install Git ===
+sudo apt install git
+=== Source ===
+https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04
+
+=== Laravel Setup ===
+=== Install Server Requirements ===
+sudo apt install php-bcmath
+sudo apt install php-ctype
+sudo apt install php-fileinfo
+sudo apt install php-json
+sudo apt install php-mbstring
+php -i | grep -i openssl
+sudo apt install php-tokenizer
+sudo apt install php-xml
+=== Source ===
+https://laravel.com/docs/7.x
+
+=== VSCode Setup ===
+=== Connect Github ===
+
