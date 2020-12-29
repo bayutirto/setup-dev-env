@@ -45,5 +45,59 @@ sudo apt install php-xml
 https://laravel.com/docs/7.x
 
 === VSCode Setup ===
-=== Connect Github ===
+=== Install Extension ===
+Material Theme
+Material Theme Icons
+Material Icon Theme
+Laravel Extension Pack
+Flutter Snippets
+Bracket Pair Colorizer
+C#
+Code Runner
+Color Vision
+Community Material Theme
+Dart
+dart-import
+django
+Docker
+DotENV
+EditorConfig for VS Code
+ES7 React/Redux/GraphQL
+ESLint
+Flutter
+Formatting Toggle
+HTML Snippets
+html to jsx
+ES6 code Snippets
+Jinja
+Jupyter
+npm
+npm intellisense
+Path intellisense
+Php Extension Pack
+Php namespace resolver
+Phpcs
+Prettier - code formatter
+Python Extension Pack
+Quasar Snippets
+React Extension Pack
+Search node_modules
+SFTP
+Tailwind CSS intellisense
+Unity Code Snippets
+Vetur
+Visual Studio IntelliCode
+vscode-pdf
 
+=== Github Setup ===
+=== git config global ===
+git config --global user.name
+git config --global user.email
+=== how to use git ===
+git init 
+git status
+git add .
+git status
+git commit -m "your init"
+git remote add origin "your github link".git
+git push -u origin master
